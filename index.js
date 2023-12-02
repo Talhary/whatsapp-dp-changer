@@ -25,9 +25,9 @@ app.get('/',(req,res)=>{
 })
 require('dotenv').config()
 const port = process.env.PORT || 5120;
-// app.listen(port,()=>{
-//   console.log(`server started on port : ${port}`)
-// })
+app.listen(port,()=>{
+  console.log(`server started on port : ${port}`)
+})
 const axios = require('axios')
 setInterval(async ()=>{
    try {
