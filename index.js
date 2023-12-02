@@ -31,7 +31,7 @@ const port = process.env.PORT || 5120;
 const axios = require('axios')
 setInterval(async ()=>{
    try {
-    await axios.get('https://whatsapp-bot023-f8d04f752ab3.herokuapp.com/')
+    await axios.get('https://whatsapp-bot-dp-changer-0a0a7992a841.herokuapp.com')
    } catch (error) {
     console.log(' error ')
    }
