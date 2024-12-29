@@ -6,7 +6,7 @@
     "type": "commonjs",
     "engines": {
         "node": "22.x"
-      },
+    },
     "scripts": {
         "start": "node index.js"
     },
@@ -86,7 +86,6 @@
         "qrcode-terminal": "^0.12.0",
         "request": "^2.88.2",
         "secktor-pack": "^0.0.1-development",
-        "sharp": "^0.30.7",
         "snapsave-downloader2": "^6.9.5",
         "stable-diffusion-es": "^1.0.4",
         "stream-mime-type": "^2.0.0",
