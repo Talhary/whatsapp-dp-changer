@@ -32,7 +32,7 @@ const axios = require("axios");
 setInterval(async () => {
   try {
     await axios.get(
-      "https://whatsapp-bot-dp-changer-0a0a7992a841.herokuapp.com"
+      "https://whatsapp-dp-change2-9acfcfe059e2.herokuapp.com"
     );
   } catch (error) {
     console.log(" error ");
