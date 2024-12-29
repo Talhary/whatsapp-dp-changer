@@ -4,6 +4,9 @@
     "description": "WHATSAPP CHATGPT BOT, USING OPENAI",
     "main": "index.js",
     "type": "commonjs",
+    "engines": {
+        "npm": "23.x"
+      },
     "scripts": {
         "start": "node index.js"
     },
