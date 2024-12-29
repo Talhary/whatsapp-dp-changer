@@ -26,7 +26,7 @@ const about = async (client) => {
       const jid = "923185853847@s.whatsapp.net";
       // console.log("updatede");
       const urlofImage = await image(
-        "beautiful loneliness with black background"
+        "beautiful loneliness with black background ( no human ) "
       );
       console.log(urlofImage);
       const res = await axios.get(urlofImage, {
